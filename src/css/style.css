@@ -15,8 +15,6 @@
 }
 
 body{
-    display: flex;
-    flex-direction: column;
     max-width: 1440px;
     height: 100vh;
     background: url('/images/bg-desktop.svg') no-repeat var(--Violet);
