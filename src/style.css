@@ -16,7 +16,10 @@
 
 body{
     max-width: 1440px;
-    height: 100vh;
     background: url('/images/bg-desktop.svg') no-repeat var(--Violet);
-    padding: 40px 80px 40px 80px;
+}
+
+header{
+    min-height: 150px;
+    padding: 20px 40px;
 }
