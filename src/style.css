@@ -22,3 +22,34 @@ body{
     max-width: 1440px;
     height: 100vh;
 }
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 70px 35px 70px;
+}
+
+.imagens{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.imagens .img-01{
+    width: 100%;
+    height: 150px;
+}
+
+.imagens .img-01 img{
+    height: 60px;
+}
+
+.imagens .img-02{
+    width: 100%;
+    height: 77%;
+}
+
+.imagens .img-02 img{
+    width: 100%;
+    height: 100%;
+}
