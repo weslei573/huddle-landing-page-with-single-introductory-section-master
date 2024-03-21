@@ -102,3 +102,18 @@ section > button:hover{
     background-color: var(--Soft-Magenta);
     color: hsl(0, 0%, 100%);
 }
+
+.social-media{
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-media a{
+    width: 45px;
+    height: 45px;
+    padding: 13px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
