@@ -12,13 +12,14 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body{
     background-color: var(--Violet);
     background-image: url('../src/images/bg-desktop.svg');
-    background-position: left;
     background-repeat: no-repeat;
+    background-size: 100%;
     max-width: 1440px;
     height: 100vh;
 }
@@ -112,16 +113,19 @@ aside > header {
 }
 
 .social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     width: 45px;
     height: 45px;
-    padding: 8px;
-    border: .1em solid white;
+    border: 2px solid white;
     border-radius: 50%;
     font-size: 1.6em;
+    margin: 2.5rem 1.5rem 3rem 0;
     color: white;
 }
 
 .social-media a:hover{
-    border: .1em solid var(--Soft-Magenta);
+    border: 2px solid var(--Soft-Magenta);
     color: var(--Soft-Magenta);
 }
