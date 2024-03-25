@@ -66,7 +66,7 @@
 
 @media screen and (max-width: 480px) {
     body {
-        background-image: url('./images/bg-mobile.svg');
+        background-image: url('../src/images/bg-mobile.svg');
         background-position: top;
         height: 100%;
     }
