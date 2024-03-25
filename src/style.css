@@ -42,7 +42,7 @@ main{
 }
 
 .imagens .img-01 img{
-    height: 60px;
+    height: 55px;
 }
 
 .imagens .img-02{
@@ -60,8 +60,6 @@ aside{
     flex-direction: column;
     padding-left: 50px;
     width: 75%;
-
-    position: relative;
 }
 
 aside > header {
@@ -72,7 +70,7 @@ aside > header {
     color: hsl(0, 0%, 100%);
 }
 
-section{
+.sub{
     display: flex;
     flex-direction: column;
     font-family: 'Open Sans';
@@ -81,12 +79,12 @@ section{
     color: hsl(0, 0%, 100%);
 }
 
-section>p{
+.sub>p{
     margin-top: 25px;
     margin-bottom: 30px;
 }
 
-section > button{
+.sub > button{
     background-color: hsl(0, 0%, 100%);
     color: var(--Violet);
     padding: 15px;
@@ -99,7 +97,7 @@ section > button{
     cursor: pointer;
 }
 
-section > button:hover{
+.sub > button:hover{
     background-color: var(--Soft-Magenta);
     color: hsl(0, 0%, 100%);
 }
@@ -109,9 +107,7 @@ section > button:hover{
     justify-content:right;
     align-items: center;
     gap: 20px;
-
-    position: absolute;
-    bottom: 0px;
+    margin-top:134px;
     right: 0px;
 }
 
