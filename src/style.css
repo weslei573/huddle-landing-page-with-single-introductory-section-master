@@ -56,11 +56,12 @@ main{
 }
 
 aside{
-    background-color: bisque;
     display: flex;
     flex-direction: column;
     padding-left: 50px;
     width: 75%;
+
+    position: relative;
 }
 
 aside > header {
@@ -108,12 +109,23 @@ section > button:hover{
     justify-content:right;
     align-items: center;
     gap: 20px;
+
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
 }
 
 .social-media a{
     width: 45px;
     height: 45px;
-    padding: 13px;
-    border: 2px solid white;
+    padding: 8px;
+    border: .1em solid white;
     border-radius: 50%;
+    font-size: 1.6em;
+    color: white;
+}
+
+.social-media a:hover{
+    border: .1em solid var(--Soft-Magenta);
+    color: var(--Soft-Magenta);
 }
