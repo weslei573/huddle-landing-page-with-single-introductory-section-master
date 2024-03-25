@@ -16,7 +16,7 @@
 
 body{
     background-color: var(--Violet);
-    background-image: url('/images/bg-desktop.svg');
+    background-image: url('./images/bg-desktop.svg');
     background-position: left;
     background-repeat: no-repeat;
     max-width: 1440px;
